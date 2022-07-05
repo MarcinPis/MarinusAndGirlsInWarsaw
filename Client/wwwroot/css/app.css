@@ -7,25 +7,26 @@ html, body {
 
 .navbar1 {
     background-image: 
-    linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 50%),
-    url("../images/navbar-bg.jpg");
+    linear-gradient(90deg, rgba(74, 7, 100, 0.5) 25%, rgba(74, 7, 100, 0.2) 100%),
+    url("../images/cybermil.jpg");
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
-    background-size: 60%; /* Resize the background image to cover the entire container */
+    background-size: cover; /* Resize the background image to cover the entire container */
     height: 200px;  
   }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
     .navbar-brand
         {
             display: flex;
             justify-content: center; /* align horizontal */
             align-items: center; /* align vertical */
+            
             /* position: absolute;
             left: 50%;
             transform: translateX(-50%); */
         }
-    }
+    /* } */
 
 
     .wrapper{
@@ -36,7 +37,7 @@ html, body {
         text-align: center;
         /* border: 1px solid; */
         width: 1000px;
-        height: 100px;
+        /* height: 100px; */
         padding: 20px;
     }
 
@@ -57,11 +58,10 @@ html, body {
       h3 {
         font-family: "Sacramento", sans-serif;
         text-align: center;
-        font-weight: 400;
       }
         
       h3 {
-        font-size: 4.5rem;
+        font-size: 4vh;
         animation: pulsate 1.5s infinite alternate;  
         border: 0.2rem solid #fff;
         border-radius: 2rem;
@@ -105,11 +105,6 @@ html, body {
       }
     }
 
-    span {
-        display: inline-block;
-        vertical-align: middle;
-        line-height: normal;
-      }
 
 h1:focus {
     outline: none;
