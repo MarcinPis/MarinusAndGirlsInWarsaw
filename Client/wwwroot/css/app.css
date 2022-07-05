@@ -27,6 +27,20 @@ html, body {
         }
     }
 
+
+    .wrapper{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height:100vh;     
+        text-align: center;
+        /* border: 1px solid; */
+        width: 1000px;
+        height: 100px;
+        padding: 20px;
+    }
+
+
     .neonText {
         color: #fff;
         text-shadow:
