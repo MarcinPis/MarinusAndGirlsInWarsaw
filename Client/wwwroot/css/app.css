@@ -203,7 +203,7 @@ a, .btn-link {
         top: 50%;
         width: 35em;
         overflow-y: auto;
-        overflow-x: hidden;
+        overflow-x: auto;
         background-color: white;
         border-left: 0.063em solid gray;
         z-index: 100;
