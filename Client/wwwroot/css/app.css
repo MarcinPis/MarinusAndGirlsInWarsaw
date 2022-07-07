@@ -124,6 +124,13 @@ a, .btn-link {
     padding-top: 1.1rem;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 288px);
+    column-gap: 123px;
+    row-gap: 75px;
+}
+
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
