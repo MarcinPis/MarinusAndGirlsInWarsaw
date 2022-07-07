@@ -199,9 +199,9 @@ a, .btn-link {
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 0;
+        margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+        left: 0;
         right: 0;
-        bottom: 0;
         width: 35em;
         overflow-y: auto;
         overflow-x: hidden;
