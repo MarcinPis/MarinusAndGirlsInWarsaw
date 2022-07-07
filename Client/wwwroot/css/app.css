@@ -127,8 +127,8 @@ a, .btn-link {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 288px);
-    column-gap: 123px;
-    row-gap: 75px;
+    column-gap: 100px;
+    row-gap: 50px;
 }
 
 .valid.modified:not([type=checkbox]) {
