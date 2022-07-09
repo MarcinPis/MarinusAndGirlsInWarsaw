@@ -23,11 +23,6 @@
     void ShowModal(Trail Trail)
     {
 
-        var options = new ModalOptions()
-        {
-            HideCloseButton = true
-        };
-
         var parameters = new ModalParameters();
         parameters.Add(nameof(DisplayMessage.Message), Trail.Description);
 
