@@ -34,10 +34,10 @@
       "id": 2,
       "image": "trails/2.jpg",
       "name": "Royal Baths",
-      "location": "Nottingham, UK",
+      "location": "https://warsawtour.pl/de/project/koenigliche-lazienki-park/",
       "timeInMinutes": 80,
       "length": 4,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a semper lacus. Vestibulum vehicula elementum auctor. Vestibulum malesuada, nibh a pretium ullamcorper, tortor nisi tincidunt ante, sed gravida purus mi in ligula. In malesuada ligula vitae risus iaculis, et sollicitudin lorem ornare. Nullam nec ullamcorper est. Donec efficitur et ipsum auctor semper. In id eros risus. Suspendisse quis massa convallis, suscipit eros eget, ullamcorper metus. Phasellus laoreet nulla quam, vel porttitor diam efficitur vitae. Etiam sollicitudin urna vel auctor accumsan. Suspendisse commodo pulvinar mauris, quis viverra lectus hendrerit dictum. In sed lorem tempus ipsum rutrum suscipit vitae sed mauris. Nunc.",
+      "description": "This vast garden is a favourite place for Varsovians where they go for long walks amid beautiful nature and architecture to rest from the hustle and bustle of the city. \n\nAt the heart of the park is the summer residence of the last king of Poland – Stanisław August Poniatowski. The name of the complex comes from the seventeenth-century bathhouse of a Polish nobleman, rebuilt in the 18th century into a palace. Here King Stanisław August Poniatowski hosted his famous Thursday dinners, to which he invited scholars and poets to discuss the issues of the day. Today it is a museum where you can admire paintings from the royal collections. \n\nMuseum ticket is free on Fridays.",
       "route": [
         {
           "stage": 1,
