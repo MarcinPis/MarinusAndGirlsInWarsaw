@@ -25,9 +25,9 @@
     void ShowModal(Trail Trail)
     {
         var parameters = new ModalParameters();
-        parameters.Add(nameof(DisplayMessage.Message), Trail.Name);
+        parameters.Add(nameof(DisplayMessage.Message), Trail.Description);
 
-        Modal.Show<DisplayMessage>("Passing Data", parameters);
+        Modal.Show<DisplayMessage>(Trail.Name, parameters);
         @* _message = title; *@
     }
 
