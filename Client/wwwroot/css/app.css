@@ -18,29 +18,15 @@ html, body {
 /* @media (min-width: 768px) { */
     .navbar-brand
         {
-            display: flex;
-            justify-content: center; /* align horizontal */
-            align-items: center; /* align vertical */
-            
-            /* position: absolute;
+          margin: 0;
+          margin-top: 15px;
+          /* justify-content: center;
+          display: block; */
+            position: absolute;
             left: 50%;
-            transform: translateX(-50%); */
+            transform: translateX(-50%);
         }
     /* } */
-
-
-    .wrapper{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        height:100vh;     
-        text-align: center;
-        /* border: 1px solid; */
-        width: 1000px;
-        /* height: 100px; */
-        padding: 20px;
-    }
-
 
     .neonText {
         color: #fff;
@@ -58,10 +44,9 @@ html, body {
       h6 {
         font-family: "Sacramento", sans-serif;
         text-align: center;
-      }
-        
-      h6 {
-        font-size: 4vh;
+        width: fit-content;
+
+        font-size: min(7vw, 45px);
         animation: pulsate 1.5s infinite alternate;  
         border: 0.2rem solid #fff;
         border-radius: 2rem;
