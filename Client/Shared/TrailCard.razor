@@ -23,10 +23,11 @@
     void ShowModal(Trail Trail)
     {
 
+        var options = new ModalOptions { UseCustomLayout = true };
         var parameters = new ModalParameters();
         parameters.Add(nameof(DisplayMessage.Message), Trail.Description);
 
-        Modal.Show<DisplayMessage>(Trail.Name, parameters);
+        Modal.Show<DisplayMessage>(Trail.Name, parameters, options);
     }
 
 }
