@@ -107,7 +107,7 @@ html, body {
 
 
 .card.shadow {
-  width: 18rem;
+  width: auto;
 }
 
 h1:focus {
