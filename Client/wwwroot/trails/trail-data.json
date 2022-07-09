@@ -64,7 +64,7 @@
     {
       "id": 3,
       "image": "trails/3.jpg",
-      "name": "Alpine Hike",
+      "name": "Old Town",
       "location": "Furna, Switzerland",
       "timeInMinutes": 150,
       "length": 6,
@@ -95,7 +95,7 @@
     {
       "id": 4,
       "image": "trails/4.jpg",
-      "name": "Bridge to Nowhere",
+      "name": "Vistula River",
       "location": "Gearstones, UK",
       "timeInMinutes": 320,
       "length": 14,
@@ -126,7 +126,7 @@
     {
       "id": 5,
       "image": "trails/5.jpg",
-      "name": "Costal Walk",
+      "name": "Royal Castle",
       "location": "Ockle, Scotland",
       "timeInMinutes": 105,
       "length": 5,
@@ -157,7 +157,7 @@
     {
       "id": 6,
       "image": "trails/6.jpg",
-      "name": "Through the valleys",
+      "name": "Royal Route",
       "location": "Tryfan, Wales",
       "timeInMinutes": 290,
       "length": 13,
