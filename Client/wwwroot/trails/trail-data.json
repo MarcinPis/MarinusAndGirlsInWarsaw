@@ -6,7 +6,7 @@
       "location": "https://pkin.pl/en/home/",
       "timeInMinutes": 195,
       "length": 11,
-      "description": "Landmark and second tallest building in Poland, 'Gift' from Soviet Union. \nYou can visit the viewing tarrace located on the 30th floor with panoramic view at the entire Warsaw. \nTicket costs 25 PLN per person and can be bought online or at location.",
+      "description": "Landmark and second tallest building in Poland, 'Gift' from Soviet Union. \n\nYou can visit the viewing tarrace located on the 30th floor with panoramic view at the entire Warsaw. \n\nTicket costs 25 PLN per person and can be bought online or at location.",
       "route": [
         {
           "stage": 1,
@@ -33,7 +33,7 @@
     {
       "id": 2,
       "image": "trails/2.jpg",
-      "name": "Woodland Walk",
+      "name": "Royal Baths",
       "location": "Nottingham, UK",
       "timeInMinutes": 80,
       "length": 4,
