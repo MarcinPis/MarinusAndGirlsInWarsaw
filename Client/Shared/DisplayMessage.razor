@@ -11,7 +11,7 @@
 
     [Parameter] public string? Message { get; set; }
 
-    async Task SubmitForm() => await BlazoredModal.CloseAsync();
+    @* async Task SubmitForm() => await BlazoredModal.CloseAsync(); *@
     async Task Cancel() => await BlazoredModal.CancelAsync();
 
 }
