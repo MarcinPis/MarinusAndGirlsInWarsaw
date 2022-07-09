@@ -10,7 +10,7 @@
         @* <button class="btn btn-primary" title="View" @onclick="@(async () => await OnSelected.InvokeAsync(Trail))">
             <i class="bi bi-binoculars"></i>
         </button> *@
-        <button @onclick="ShowModal" class="btn btn-primary"><i class="bi bi-binoculars"></i></button>
+        <button @onclick="ShowModal(Trail.Name)" class="btn btn-primary"><i class="bi bi-binoculars"></i></button>
     </div>
 </div>
 
@@ -23,13 +23,13 @@
 
     string _message = "";
 
-    void ShowModal()
+    void ShowModal(string title)
     {
         var parameters = new ModalParameters();
-        parameters.Add(nameof(DisplayMessage.Message), _message);
+        parameters.Add(nameof(DisplayMessage.Message), title);
 
         Modal.Show<DisplayMessage>("Passing Data", parameters);
-        _message = "";
+        @* _message = title; *@
     }
 
 
