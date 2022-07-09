@@ -26,6 +26,7 @@
         var options = new ModalOptions { UseCustomLayout = true };
         var parameters = new ModalParameters();
         parameters.Add(nameof(DisplayMessage.Message), Trail.Description);
+        parameters.Add(nameof(DisplayMessage.Tessage), Trail.Name);
 
         Modal.Show<DisplayMessage>(Trail.Name, parameters, options);
     }
