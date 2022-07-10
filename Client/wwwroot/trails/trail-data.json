@@ -21,7 +21,7 @@
       "id": 3,
       "image": "trails/3.jpg",
       "name": "Old Town",
-      "location": "Furna, Switzerland",
+      "location": "https://warsawtour.pl/de/project/altstadt/",
       "timeInMinutes": 90,
       "length": 6,
       "description": "A UNESCO world heritage site, the Old Town charms with its colourful townhouses and the exceptional atmosphere of its narrow streets. \n\nWhen in the Old Town Market Square, you will meet a mermaid – the official symbol of the city. \n\nDon’t forget to see the Barbican, stop by the bell on Kanonia Street, and walk along the old city walls."
@@ -30,7 +30,7 @@
       "id": 4,
       "image": "trails/4.jpg",
       "name": "Royal Route",
-      "location": "Tryfan, Wales",
+      "location": "https://warsawtour.pl/de/koenigsweg/",
       "timeInMinutes": 60,
       "length": 13,
       "description": "The Royal Route connects three former residences of Polish rulers: Royal Castle, Royal Łazienki and Wilanów Palace. \n\nIt is the city’s most famous route. Among the buildings lining the streets Krakowskie Przedmieście and Nowy Świat are the Presidential Palace, the Warsaw University campus, as well as beautiful churches and townhouses. \n\nThe Route continues along the elegant and green Aleje Ujazdowskie, with embassies and ministries situated along the way. The historical route ends at Wilanów Palace."
@@ -39,7 +39,7 @@
       "id": 5,
       "image": "trails/5.jpg",
       "name": "Royal Castle",
-      "location": "Ockle, Scotland",
+      "location": "https://warsawtour.pl/de/konigsschloss-in-warschau/",
       "timeInMinutes": 100,
       "length": 5,
       "description": "The Royal Castle is the former seat of the rulers of Poland. Go inside and look at the royal apartments and the Throne Room. Pay attention to original paintings by Rembrandt and the canvases of Bernardo Bellotto, known as Canaletto. See also the Senator’s Hall, in which in 1791 the 3rd May Constitution was passed – the first constitution in Europe and the second in the world. \n\nAt the end, enter the beautifully reconstructed gardens: the upper garden situated on the castle slope and the lower one at its feet where the river used to flow in the seventeenth century."
@@ -48,15 +48,15 @@
       "id": 6,
       "image": "trails/6.jpg",
       "name": "Vistula Boulevards",
-      "location": "Gearstones, UK",
+      "location": "https://warsawtour.pl/de/project/weichsel-boulevards/",
       "timeInMinutes": 90,
       "length": 14,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ex ac euismod pulvinar. Cras lorem nulla, posuere sed semper sed, scelerisque non nulla. Sed mi lorem, condimentum nec magna ac, ultricies lobortis ante. Integer tincidunt, metus eget mattis hendrerit, nibh metus sagittis diam, sed imperdiet metus nisi ac magna. Pellentesque iaculis mi purus, a porta tortor sodales consequat. Pellentesque vel mattis ligula. Fusce ac massa id ex rutrum eleifend. Nunc porta tortor dictum, ornare metus quis, laoreet ante. Nullam ullamcorper magna eget eleifend consequat. In nulla ex, iaculis vestibulum eros ac, vestibulum euismod arcu. Nullam sollicitudin at neque et."
+      "description": "The Vistula Boulevards are a friendly space for everyone. \n\nObservation terraces, a mini-beach and food pavilions with dishes from around the world can all be found. \n\nAn additional attraction are river jetties from where you can take a cruise on the Vistula to admire Warsaw’s panorama from a different perspective. \n\nGet hammered with local vodka."
     },
     {
       "id": 7,
       "image": "trails/7.jpg",
-      "name": "Zapiecek",
+      "name": "https://www.google.pl/maps/place/Zapiecek/@52.2445936,21.0120825,15.78z/data=!4m12!1m6!3m5!1s0x471ecc66f16370fb:0xad08e1cfbe708233!2sZapiecek!8m2!3d52.2450436!4d21.013711!3m4!1s0x471ecc66f16370fb:0xad08e1cfbe708233!8m2!3d52.2450436!4d21.013711",
       "location": "Scafell Pike, UK",
       "timeInMinutes": 70,
       "length": 11,
@@ -66,10 +66,10 @@
       "id": 8,
       "image": "trails/8.jpg",
       "name": "Multimedia Fountain Park",
-      "location": "Clayhill, UK",
-      "timeInMinutes": 185,
+      "location": "https://warsawtour.pl/de/multimediale-springbrunnenpark/",
+      "timeInMinutes": 60,
       "length": 10,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus nulla et urna convallis tempus. Nunc ipsum sapien, bibendum quis dapibus ut, feugiat at neque. Nunc non ipsum iaculis, imperdiet risus ut, egestas nunc. Donec quis mattis est, quis ultrices erat. Fusce aliquet, massa sed dignissim sollicitudin, turpis diam venenatis nisl, ac mattis lacus nunc vel leo. Vestibulum vitae dignissim mi, quis placerat magna. Proin dignissim at ante ac posuere. Integer finibus tincidunt mollis. Pellentesque varius sed justo vitae eleifend. Mauris et risus tortor. Maecenas massa ipsum, dignissim nec ipsum a, sagittis sodales tellus. Nullam rutrum malesuada libero vel posuere."
+      "description": "Located at the foot of the Old Town, it is a place to cool down for residents and tourists. \n\nGo there on a hot day or drop by in the evening at the weekend to watch a spectacular show of light, sound and water. \n\nOn the water screen with fog scattered over the water you can watch an animated story about the history of Warsaw and its legends. It is accompanied by laser lights and several-metre-high columns of water rising to the rhythm of music, lit by colourful floodlights. \n\nTo admire the spectacle, it is best to sit on the grassy slope. The shows take place every Friday and Saturday in July at 9.30 pm."
     },
     {
       "id": 9,
