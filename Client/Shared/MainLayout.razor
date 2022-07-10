@@ -1,13 +1,19 @@
 ﻿@inherits LayoutComponentBase
+<header>
+    <Header />
+</header>
 
 <div class="page">
+
     <div class="sidebar">
         <NavMenu />
     </div>
 
     <main>
         <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <a><i class="bi bi-currency-euro">1 = 4.75PLN</i></a>
+            <a><i class="bi bi-telephone-fill"></i> Emergency: 112</a>
+            @* <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a> *@
         </div>
 
         <article class="content px-4">
@@ -15,3 +21,5 @@
         </article>
     </main>
 </div>
+
+<footer></footer>

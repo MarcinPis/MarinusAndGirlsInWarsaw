@@ -4,15 +4,27 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Azure Static Web Apps Blazor Sample</title>
+    <title>Marinus and the Girls in Warsaw</title>
     <base href="/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet" >
+    <link href='https://fonts.googleapis.com/css?family=Sacramento:400' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/0cd65d3fff.js" crossorigin="anonymous"></script>
     <link href="css/app.css" rel="stylesheet" />
     <link href="Client.styles.css" rel="stylesheet" />
+    <link href="_content/Blazored.Modal/blazored-modal.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="app">Loading...</div>
+    <div id="app">
+        <div style="position:absolute; top:30vh; width:100%; text-align:center">
+          <h1>Marinus and the Girls in Warsaw</h1>
+          <div style="display:flex; gap:10px; justify-content:center; align-items:center">
+            <div class="spinner-border" role="status"></div>
+            The app is loading...
+          </div>
+        </div>
+      </div>
 
     <div id="blazor-error-ui">
         An unhandled error has occurred.
@@ -20,6 +32,7 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Blazored.Modal/blazored.modal.js"></script>
 </body>
 
 </html>

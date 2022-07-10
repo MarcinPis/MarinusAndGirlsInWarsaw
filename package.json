@@ -1,0 +1,11 @@
+{
+  "scripts": {
+      "sass": "sass"
+  },
+  "devDependencies": {
+      "sass": "1.44.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.3"
+  }
+}

@@ -1,0 +1,37 @@
+<div class="card shadow">
+    <img src="@Trail.Image" class="card-img-top" alt="@Trail.Name">
+    <div class="card-body">
+        <a href="@Trail.Location" target=”_blank”>
+            <h5 class="card-title">@Trail.Name</h5>
+        </a>
+            @* <h7 class="card-subtitle mb-3 text-muted"><span class="oi oi-map-marker">&nbsp</span>Website</h7> *@
+        
+        <div class="d-flex justify-content-between mb-3">
+            <span><span class="oi oi-clock mr-2"></span> @Trail.TimeFormatted</span>
+            <span><span class="oi oi-infinity mr-2"></span> @Trail.Length km</span>
+        </div>
+        @* <button class="btn btn-primary" title="View" @onclick="@(async () => await OnSelected.InvokeAsync(Trail))">
+            <i class="bi bi-binoculars"></i>
+        </button> *@
+        <button @onclick="@(() => ShowModal(Trail))" class="btn btn-primary"><i class="bi bi-binoculars"></i></button>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public Trail Trail { get; set; } = default!;
+    [Parameter, EditorRequired] public EventCallback<Trail> OnSelected { get; set; }
+
+    [CascadingParameter] public IModalService Modal { get; set; } = default!;
+
+    void ShowModal(Trail Trail)
+    {
+
+        var options = new ModalOptions { UseCustomLayout = true };
+        var parameters = new ModalParameters();
+        parameters.Add(nameof(DisplayMessage.Message), Trail.Description);
+        parameters.Add(nameof(DisplayMessage.Title), Trail.Name);
+
+        Modal.Show<DisplayMessage>(Trail.Name, parameters, options);
+    }
+
+}
