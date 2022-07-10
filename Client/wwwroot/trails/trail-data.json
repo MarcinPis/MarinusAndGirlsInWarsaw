@@ -4,7 +4,7 @@
       "image": "trails/1.jpg",
       "name": "Palace of Culture",
       "location": "https://pkin.pl/en/home/",
-      "timeInMinutes": 195,
+      "timeInMinutes": 60,
       "length": 11,
       "description": "Landmark and second tallest building in Poland, 'Gift' from Soviet Union. \n\nYou can visit the viewing tarrace located on the 30th floor with panoramic view at the entire Warsaw. \n\nTicket costs 25 PLN per person and can be bought online or at location.",
       "route": [
@@ -35,7 +35,7 @@
       "image": "trails/2.jpg",
       "name": "Royal Baths",
       "location": "https://warsawtour.pl/de/project/koenigliche-lazienki-park/",
-      "timeInMinutes": 80,
+      "timeInMinutes": 120,
       "length": 4,
       "description": "This vast garden is a favourite place for Varsovians where they go for long walks amid beautiful nature and architecture to rest from the hustle and bustle of the city. \n\nAt the heart of the park is the summer residence of the last king of Poland – Stanisław August Poniatowski. The name of the complex comes from the seventeenth-century bathhouse of a Polish nobleman, rebuilt in the 18th century into a palace. Here King Stanisław August Poniatowski hosted his famous Thursday dinners, to which he invited scholars and poets to discuss the issues of the day. Today it is a museum where you can admire paintings from the royal collections. \n\nMuseum ticket is free on Fridays.",
       "route": [
@@ -66,7 +66,7 @@
       "image": "trails/3.jpg",
       "name": "Old Town",
       "location": "Furna, Switzerland",
-      "timeInMinutes": 150,
+      "timeInMinutes": 90,
       "length": 6,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus fringilla, rhoncus nulla et, dapibus quam. Phasellus pulvinar ex quis laoreet vulputate. Aliquam tempor faucibus diam sit amet mattis. Sed hendrerit, mi quis placerat pellentesque, ante odio dictum tellus, et luctus ex justo eget ante. Sed sit amet nulla dictum, hendrerit sem at, rutrum mi. Vestibulum quis sodales odio, finibus porttitor turpis. Etiam magna nibh, ornare sit amet suscipit laoreet, mattis ut orci. Curabitur a auctor lectus. Nullam eget volutpat felis, eu blandit ante. Nam ligula nisi, euismod at fringilla et, vulputate ut lectus. Nulla facilisi. Vestibulum ante ipsum.",
       "route": [
@@ -97,7 +97,7 @@
       "image": "trails/4.jpg",
       "name": "Vistula River",
       "location": "Gearstones, UK",
-      "timeInMinutes": 320,
+      "timeInMinutes": 90,
       "length": 14,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet ex ac euismod pulvinar. Cras lorem nulla, posuere sed semper sed, scelerisque non nulla. Sed mi lorem, condimentum nec magna ac, ultricies lobortis ante. Integer tincidunt, metus eget mattis hendrerit, nibh metus sagittis diam, sed imperdiet metus nisi ac magna. Pellentesque iaculis mi purus, a porta tortor sodales consequat. Pellentesque vel mattis ligula. Fusce ac massa id ex rutrum eleifend. Nunc porta tortor dictum, ornare metus quis, laoreet ante. Nullam ullamcorper magna eget eleifend consequat. In nulla ex, iaculis vestibulum eros ac, vestibulum euismod arcu. Nullam sollicitudin at neque et.",
       "route": [
@@ -128,7 +128,7 @@
       "image": "trails/5.jpg",
       "name": "Royal Castle",
       "location": "Ockle, Scotland",
-      "timeInMinutes": 105,
+      "timeInMinutes": 100,
       "length": 5,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet, justo ut egestas pulvinar, est dui elementum neque, ac elementum lectus tellus in libero. Cras ullamcorper tellus id velit finibus, at rutrum odio convallis. Donec gravida nec mauris eget iaculis. Praesent faucibus ante fringilla, ullamcorper enim sit amet, suscipit leo. Sed libero erat, facilisis vel nunc et, venenatis volutpat quam. Integer sit amet lobortis risus, ut hendrerit orci. Vivamus pulvinar lectus dui, a dictum odio eleifend vitae. Pellentesque gravida risus eu ipsum efficitur consectetur. Nulla lectus leo, pharetra vel ante ut, mollis pharetra arcu. Morbi vitae metus ante. Integer lacinia.",
       "route": [
@@ -159,7 +159,7 @@
       "image": "trails/6.jpg",
       "name": "Royal Route",
       "location": "Tryfan, Wales",
-      "timeInMinutes": 290,
+      "timeInMinutes": 60,
       "length": 13,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis magna eget sem feugiat, non pulvinar dui interdum. Proin quis tincidunt ex. Pellentesque dictum nibh dolor, cursus porta magna sodales a. Morbi vitae tortor nisi. Nullam molestie dui tempus, lobortis dolor sit amet, hendrerit libero. Quisque sed massa id lacus ornare faucibus eget facilisis mi. Donec interdum bibendum leo nec facilisis. In semper nec eros id tincidunt. Nunc sed sagittis justo. Ut massa ligula, posuere sed iaculis sit amet, laoreet ut ipsum. Nulla facilisi. Vestibulum iaculis risus nulla. Nunc congue elit et erat blandit vulputate. Praesent vulputate tortor at augue.",
       "route": [
