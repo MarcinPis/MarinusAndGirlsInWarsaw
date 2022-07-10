@@ -5,7 +5,7 @@
       "name": "Palace of Culture",
       "location": "https://pkin.pl/en/home/",
       "timeInMinutes": 60,
-      "length": 11,
+      "length": "https://www.google.pl/maps/place/Pa%C5%82ac+Kultury+i+Nauki/@52.2318413,21.0038063,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc8c92692e49:0xc2e97ae5311f2dc2!8m2!3d52.231838!4d21.005995",
       "description": "Landmark and second tallest building in Poland, 'Gift' from Soviet Union. \n\nYou can visit the viewing tarrace located on the 30th floor with panoramic view at the entire Warsaw. \n\nTicket costs 25 PLN per person and can be bought online or at location."
     },
     {
@@ -14,7 +14,7 @@
       "name": "Royal Baths",
       "location": "https://warsawtour.pl/de/project/koenigliche-lazienki-park/",
       "timeInMinutes": 120,
-      "length": 4,
+      "length": "https://www.google.pl/maps/place/%C5%81azienki+Kr%C3%B3lewskie/@52.2167481,21.0378016,15z/data=!4m5!3m4!1s0x471ecd1e6e5e7ee3:0x8c56b6615ca1aa71!8m2!3d52.2151532!4d21.0349992",
       "description": "This vast garden is a favourite place for Varsovians where they go for long walks amid beautiful nature and architecture to rest from the hustle and bustle of the city. \n\nAt the heart of the park is the summer residence of the last king of Poland – Stanisław August Poniatowski. The name of the complex comes from the seventeenth-century bathhouse of a Polish nobleman, rebuilt in the 18th century into a palace. \n\nHere King Stanisław August Poniatowski hosted his famous Thursday dinners, to which he invited scholars and poets to discuss the issues of the day. Today it is a museum where you can admire paintings from the royal collections. \n\nMuseum ticket is free on Fridays."
     },
     {
@@ -23,7 +23,7 @@
       "name": "Old Town",
       "location": "https://warsawtour.pl/de/project/altstadt/",
       "timeInMinutes": 90,
-      "length": 6,
+      "length": "https://www.google.pl/maps/place/Stare+Miasto,+Warszawa/@52.2500337,21.0092832,16z/data=!3m1!4b1!4m5!3m4!1s0x471ecc6f49f976dd:0x50d2f456e2756d4f!8m2!3d52.2477331!4d21.0136079",
       "description": "A UNESCO world heritage site, the Old Town charms with its colourful townhouses and the exceptional atmosphere of its narrow streets. \n\nWhen in the Old Town Market Square, you will meet a mermaid – the official symbol of the city. \n\nDon’t forget to see the Barbican, stop by the bell on Kanonia Street, and walk along the old city walls."
     },
     {
@@ -32,7 +32,7 @@
       "name": "Royal Route",
       "location": "https://warsawtour.pl/de/koenigsweg/",
       "timeInMinutes": 60,
-      "length": 13,
+      "length": "https://www.google.pl/maps/place/Royal+Route/@52.2440624,21.0120499,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecd96e91d443f:0x197906bb5736e392!8m2!3d52.2440591!4d21.0142386",
       "description": "The Royal Route connects three former residences of Polish rulers: Royal Castle, Royal Łazienki and Wilanów Palace. \n\nIt is the city’s most famous route. Among the buildings lining the streets Krakowskie Przedmieście and Nowy Świat are the Presidential Palace, the Warsaw University campus, as well as beautiful churches and townhouses. \n\nThe Route continues along the elegant and green Aleje Ujazdowskie, with embassies and ministries situated along the way. The historical route ends at Wilanów Palace."
     },
     {
@@ -41,7 +41,7 @@
       "name": "Royal Castle",
       "location": "https://warsawtour.pl/de/konigsschloss-in-warschau/",
       "timeInMinutes": 100,
-      "length": 5,
+      "length": "https://www.google.pl/maps/place/Zamek+Kr%C3%B3lewski+w+Warszawie+-+Muzeum.+Rezydencja+Kr%C3%B3l%C3%B3w+i+Rzeczypospolitej/@52.2479793,21.0130673,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc661b455407:0x2019a146fb49c9be!8m2!3d52.247976!4d21.015256",
       "description": "The Royal Castle is the former seat of the rulers of Poland. Go inside and look at the royal apartments and the Throne Room. \n\nPay attention to original paintings by Rembrandt and the canvases of Bernardo Bellotto, known as Canaletto. \n\nSee also the Senator’s Hall, in which in 1791 the 3rd May Constitution was passed – the first constitution in Europe and the second in the world. \n\nAt the end, enter the beautifully reconstructed gardens: the upper garden situated on the castle slope and the lower one at its feet where the river used to flow in the seventeenth century."
     },
     {
@@ -50,7 +50,7 @@
       "name": "Vistula Boulevards",
       "location": "https://warsawtour.pl/de/project/weichsel-boulevards/",
       "timeInMinutes": 90,
-      "length": 14,
+      "length": "https://www.google.pl/maps/place/Bulwary+nad+Wis%C5%82%C4%85/@52.2446966,21.0231099,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc5cea1aef6f:0xa6ca285257060fe9!8m2!3d52.2446933!4d21.0252986",
       "description": "The Vistula Boulevards are a friendly space for everyone. \n\nObservation terraces, a mini-beach and food pavilions with dishes from around the world can all be found. \n\nAn additional attraction are river jetties from where you can take a cruise on the Vistula to admire Warsaw’s panorama from a different perspective. \n\nGet hammered with local vodka."
     },
     {
@@ -59,7 +59,7 @@
       "name": "Zapiecek",
       "location": "https://www.google.pl/maps/place/Zapiecek/@52.2445936,21.0120825,15.78z/data=!4m12!1m6!3m5!1s0x471ecc66f16370fb:0xad08e1cfbe708233!2sZapiecek!8m2!3d52.2450436!4d21.013711!3m4!1s0x471ecc66f16370fb:0xad08e1cfbe708233!8m2!3d52.2450436!4d21.013711",
       "timeInMinutes": 70,
-      "length": 11,
+      "length": "https://www.google.pl/maps/place/Zapiecek/@52.2450469,21.0115223,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc66f16370fb:0xad08e1cfbe708233!8m2!3d52.2450436!4d21.013711",
       "description": "Zapiecek is a chain of restaurants with traditional polish food. \n\nYou can try polish dumplings (pierogi), bigos, żurek soup and many others."
     },
     {
@@ -68,7 +68,7 @@
       "name": "Multimedia Fountain Park",
       "location": "https://warsawtour.pl/de/multimediale-springbrunnenpark/",
       "timeInMinutes": 60,
-      "length": 10,
+      "length": "https://www.google.pl/maps/place/Multimedialny+Park+Fontann/@52.2539568,21.0091441,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc6e090b4487:0x4f1165a8b83c9506!8m2!3d52.2539535!4d21.0113328",
       "description": "Located at the foot of the Old Town, it is a place to cool down for residents and tourists. \n\nGo there on a hot day or drop by in the evening at the weekend to watch a spectacular show of light, sound and water. \n\nOn the water screen with fog scattered over the water you can watch an animated story about the history of Warsaw and its legends. It is accompanied by laser lights and several-metre-high columns of water rising to the rhythm of music, lit by colourful floodlights. \n\nTo admire the spectacle, it is best to sit on the grassy slope. The shows take place every Friday and Saturday in July at 9.30 pm."
     },
     {
@@ -77,7 +77,7 @@
       "name": "PGE Narodowy Stadium",
       "location": "https://warsawtour.pl/de/pge-nationalstadion/",
       "timeInMinutes": 120,
-      "length": 2,
+      "length": "https://www.google.pl/maps/place/PGE+Narodowy/@52.239499,21.0436022,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc53aadd5a5b:0x6243befa18b5188b!8m2!3d52.2394957!4d21.0457909",
       "description": "This is the place that Rammstein will play - have fun."
     }
   ]
