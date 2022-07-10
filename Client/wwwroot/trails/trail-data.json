@@ -56,11 +56,11 @@
     {
       "id": 7,
       "image": "trails/7.jpg",
-      "name": "https://www.google.pl/maps/place/Zapiecek/@52.2445936,21.0120825,15.78z/data=!4m12!1m6!3m5!1s0x471ecc66f16370fb:0xad08e1cfbe708233!2sZapiecek!8m2!3d52.2450436!4d21.013711!3m4!1s0x471ecc66f16370fb:0xad08e1cfbe708233!8m2!3d52.2450436!4d21.013711",
-      "location": "Scafell Pike, UK",
+      "name": "Zapiecek",
+      "location": "https://www.google.pl/maps/place/Zapiecek/@52.2445936,21.0120825,15.78z/data=!4m12!1m6!3m5!1s0x471ecc66f16370fb:0xad08e1cfbe708233!2sZapiecek!8m2!3d52.2450436!4d21.013711!3m4!1s0x471ecc66f16370fb:0xad08e1cfbe708233!8m2!3d52.2450436!4d21.013711",
       "timeInMinutes": 70,
       "length": 11,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pellentesque metus purus, fermentum bibendum turpis ornare et. Duis pellentesque libero vitae tortor sagittis placerat. Suspendisse consectetur rhoncus lectus et dignissim. Proin iaculis urna nec justo pellentesque, a posuere dolor aliquam. Sed quam sapien, fermentum non nisl eget, faucibus fermentum purus. Donec ut est quis sem imperdiet rhoncus. Nunc in porta lectus, eget lacinia velit. Cras dui ipsum, dictum ut mauris nec, euismod accumsan ligula. Vestibulum eget sapien scelerisque, feugiat nibh non, ornare quam. Aenean semper, lectus id gravida consequat, nisl metus suscipit nulla, a placerat purus ante ut nunc. Aliquam."
+      "description": "Zapiecek is a chain of restaurants with traditional polish food. \n\nYou can try polish dumplings (pierogi), bigos, żurek soup and many others."
     },
     {
       "id": 8,
