@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "image": "trails/6.jpg",
+      "image": "trails/4.jpg",
       "name": "Royal Route",
       "location": "Tryfan, Wales",
       "timeInMinutes": 60,
@@ -46,7 +46,7 @@
     },
     {
       "id": 6,
-      "image": "trails/4.jpg",
+      "image": "trails/6.jpg",
       "name": "Vistula River",
       "location": "Gearstones, UK",
       "timeInMinutes": 90,
