@@ -74,10 +74,10 @@
     {
       "id": 9,
       "image": "trails/9.jpg",
-      "name": "Open Countryside",
-      "location": "Long Stratton, UK",
+      "name": "PGE Narodowy Stadium",
+      "location": "https://warsawtour.pl/de/pge-nationalstadion/",
       "timeInMinutes": 50,
       "length": 2,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis orci vitae nulla fringilla aliquet. Suspendisse vel tincidunt mi. Donec eu augue nec massa feugiat fermentum. In malesuada dui at risus tristique commodo. Morbi varius leo vitae lectus tincidunt rhoncus. Nam hendrerit fringilla ipsum, nec pellentesque justo congue ut. Fusce pulvinar risus tincidunt scelerisque viverra. Fusce cursus arcu sed lectus porttitor faucibus. Donec imperdiet elementum interdum. Suspendisse sed bibendum est. Aenean pulvinar purus quis aliquet interdum. Vivamus sit amet iaculis ante, vitae facilisis lorem. Cras in tortor et orci feugiat vulputate at eget elit. In eget diam blandit, dignissim nibh."
+      "description": "This is the place that Rammstein will play."
     }
   ]
