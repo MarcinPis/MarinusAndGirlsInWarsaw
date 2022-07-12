@@ -1,0 +1,124 @@
+@page "/fetchdata"
+@using BlazorApp.Shared 
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+<h1>Weather forecast for downtown Warsaw</h1>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="grid">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Temp. (C)</th>
+                    <th>Cloud Cover (%)</th>
+                    <th>Wind Speed (m/s)</th>
+                    <th>Precipitation Intensity (mm/hr)</th>
+                    <th>Precipitation Probability (%)</th>
+                    @* <th>Weather Code</th> *@
+                    <th>Weather Summary</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in forecasts)
+                {
+                    <tr>
+                        <td>@item.startTime</td>
+                        <td>@Math.Round(@item.values.temperatureMin)</td>
+                        <td>@Math.Round(@item.values.cloudCover)</td>
+                        <td>@Math.Round(@item.values.windSpeed, 1)</td>
+                        <td>@Math.Round(@item.values.precipitationIntensity, 2)</td>
+                        <td>@Math.Round(@item.values.precipitationProbability)</td>
+                        @* <td>@item.values.weatherCode</td> *@
+                        <td>@GetSummary(@item.values.weatherCode)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    </div>
+}
+
+@code {
+    private Interval[] forecasts = new Interval[]{};
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            forecasts = await Http.GetFromJsonAsync<Interval[]>("/api/WarsawWeather") ?? new Interval[]{};
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
+    }
+
+        private static string GetSummary(int code)
+        {
+            var summary = "Unknown";
+
+            switch (code)
+            {
+                case 1000:
+                    summary = "Clear, Sunny";
+                    break;
+
+                case 1100:
+                    summary = "Mostly Clear";
+                    break;
+
+                case 1101:
+                    summary = "Partly Cloudy";
+                    break;
+
+                case 1102:
+                    summary = "Mostly Cloudy";
+                    break;
+
+                case 1001:
+                    summary = "Cloudy";
+                    break;
+
+                case 2000:
+                    summary = "Fog";
+                    break;
+
+                case 2100:
+                    summary = "Light Fog";
+                    break;
+
+                case 4000:
+                    summary = "Drizzle";
+                    break;
+
+                case 4001:
+                    summary = "Rain";
+                    break;
+
+                case 4200:
+                    summary = "Light Rain";
+                    break;
+
+                case 4201:
+                    summary = "Heavy Rain";
+                    break;
+
+                default:
+                    summary = "Unknown";
+                    break;
+            }
+
+            return summary;
+        }
+
+
+
+}
