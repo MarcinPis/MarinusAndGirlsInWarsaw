@@ -23,7 +23,7 @@ namespace BlazorApp.Shared
 
     public class Interval
     {
-        public string startTime { get; set; }
+        public DateTime startTime { get; set; }
         public Values values { get; set; }
     }
 

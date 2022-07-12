@@ -22,6 +22,7 @@ else
                     <th>Wind Speed (m/s)</th>
                     <th>Precipitation Intensity (mm/hr)</th>
                     <th>Precipitation Probability (%)</th>
+                    @* <th>Weather Code</th> *@
                     <th>Weather Summary</th>
                 </tr>
             </thead>
@@ -30,12 +31,13 @@ else
                 {
                     <tr>
                         <td>@item.startTime</td>
-                        <td>@item.values.temperatureMin</td>
-                        <td>@item.values.cloudCover</td>
-                        <td>@item.values.windSpeed</td>
-                        <td>@item.values.precipitationIntensity</td>
-                        <td>@item.values.precipitationProbability</td>
-                        <td>@item.values.weatherCode</td>
+                        <td>@Math.Round(@item.values.temperatureMin)</td>
+                        <td>@Math.Round(@item.values.cloudCover)</td>
+                        <td>@Math.Round(@item.values.windSpeed, 1)</td>
+                        <td>@Math.Round(@item.values.precipitationIntensity, 2)</td>
+                        <td>@Math.Round(@item.values.precipitationProbability)</td>
+                        @* <td>@item.values.weatherCode</td> *@
+                        <td>@GetSummary(@item.values.weatherCode)</td>
                     </tr>
                 }
             </tbody>
@@ -58,4 +60,65 @@ else
             Console.WriteLine(ex.ToString());
         }
     }
+
+        private static string GetSummary(int code)
+        {
+            var summary = "Unknown";
+
+            switch (code)
+            {
+                case 1000:
+                    summary = "Clear, Sunny";
+                    break;
+
+                case 1100:
+                    summary = "Mostly Clear";
+                    break;
+
+                case 1101:
+                    summary = "Partly Cloudy";
+                    break;
+
+                case 1102:
+                    summary = "Mostly Cloudy";
+                    break;
+
+                case 1001:
+                    summary = "Cloudy";
+                    break;
+
+                case 2000:
+                    summary = "Fog";
+                    break;
+
+                case 2100:
+                    summary = "Light Fog";
+                    break;
+
+                case 4000:
+                    summary = "Drizzle";
+                    break;
+
+                case 4001:
+                    summary = "Rain";
+                    break;
+
+                case 4200:
+                    summary = "Light Rain";
+                    break;
+
+                case 4201:
+                    summary = "Heavy Rain";
+                    break;
+
+                default:
+                    summary = "Unknown";
+                    break;
+            }
+
+            return summary;
+        }
+
+
+
 }
