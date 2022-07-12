@@ -99,6 +99,10 @@ h1:focus {
     outline: none;
 }
 
+h3.navbar {
+    color: #0077cc;
+}
+
 a, .btn-link {
     color: #0077cc;
 }
@@ -188,5 +192,11 @@ p {
     height:100%;
     width:100%;
     position:absolute;
-
 }
+
+table.table {
+    table-layout: auto;
+    width: 100%;  
+  }
+
+  /* th {resize:horizontal; overflow:auto;} */
