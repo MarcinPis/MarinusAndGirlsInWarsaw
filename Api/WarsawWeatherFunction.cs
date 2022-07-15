@@ -42,7 +42,7 @@ namespace BlazorApp.Api
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri(baseUrl + location + fields + units + timestampString + startTime + endTime + timezoneString + apiKey),
+                RequestUri = new Uri(baseUrl + location + fields + units + timestampString  + endTime + timezoneString + apiKey),
                 Headers =
                 {
                     { "Accept", "application/json" },
